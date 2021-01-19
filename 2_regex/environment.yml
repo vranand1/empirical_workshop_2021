@@ -1,0 +1,17 @@
+name: workshop-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyterlab=3
+  - jupyter_nbextensions_configurator
+  - nbformat=5.0.8
+  - ipyparallel
+  - sqlalchemy
+  - pyodbc
+  - rise
+  - regex
+  - pandas
+  - pip
+  - pip:
+    - typer[all]

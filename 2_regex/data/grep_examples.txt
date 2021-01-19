@@ -1,0 +1,2 @@
+grep -E --color '<footnote id=\"F\d\">.+?</footnote>' 2020-sample/*.txt | grep -E --color '[0-9]+[0-9,]* shares'
+
