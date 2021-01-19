@@ -1,1 +1,1 @@
-# empirical_workshop_2021
+# Empirical Workshop 2021
