@@ -12,7 +12,9 @@ dependencies:
   - rise
   - regex
   - pandas
+  - scikit-learn
+  - pyldavis
   - pip
   - pip:
     - spacy
-    
+    - textacy[all]
