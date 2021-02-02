@@ -14,7 +14,9 @@ dependencies:
   - pandas
   - scikit-learn
   - pyldavis
+  - beautifulsoup4
   - pip
   - pip:
-    - spacy
     - textacy[all]
+    - spacy >=2.2,<3.0
+
