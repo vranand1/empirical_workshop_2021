@@ -1,24 +1,19 @@
-name: workshop-env
+name: test-env
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.9
-  - jupyterlab=3
-  - jupyter_nbextensions_configurator
-  - nbformat=5.0.8
-  - ipyparallel
-  - sqlalchemy
-  - pyodbc
-  - rise
-  - regex
-  - pandas
-  - scikit-learn
   - pyldavis
-  - beautifulsoup4
+  - rise
+  - ipyparallel
+  - nbformat=5.0.8
+  - regex
+  - sqlalchemy
+  - jupyter_nbextensions_configurator
+  - scikit-learn
+  - pyodbc
   - pip
-  - pip:
-    - rpy2
-    - textacy[all]
-    - spacy >=2.2,<3.0
-    
-
+  - python=3.9
+  - pandas
+  - jupyterlab=3
+  - beautifulsoup4
