@@ -20,4 +20,4 @@ def estimate_pi(n=1e6) -> "area":
         
     return 4 * in_circle / total
 
-estimate_pi(n=1e3)
+estimate_pi()
