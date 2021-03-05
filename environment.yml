@@ -15,5 +15,5 @@ dependencies:
   - scikit-learn
   - pyldavis
   - beautifulsoup4
-  - pip
+  - typer[all]
 
